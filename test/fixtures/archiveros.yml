@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2017-05-12 15:46:10
+  nombre: MyText
+  primerapellido: MyText
+  segundoapellido: MyText
+  esferaderecha: 9.99
+  cilindroderecho: 9.99
+  ejederecho: 1
+  esferaizquierda: 9.99
+  cilindroizquierdo: 9.99
+  ejeizquierdo: 1
+  adicion: 9.99
+  tipodemica: MyText
+  observaciones: MyText
+
+two:
+  date: 2017-05-12 15:46:10
+  nombre: MyText
+  primerapellido: MyText
+  segundoapellido: MyText
+  esferaderecha: 9.99
+  cilindroderecho: 9.99
+  ejederecho: 1
+  esferaizquierda: 9.99
+  cilindroizquierdo: 9.99
+  ejeizquierdo: 1
+  adicion: 9.99
+  tipodemica: MyText
+  observaciones: MyText

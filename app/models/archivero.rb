@@ -1,0 +1,2 @@
+class Archivero < ApplicationRecord
+end

@@ -1,0 +1,46 @@
+<%= form_for :archivero do |f| %>
+  <p>
+    <%= f.label :date %><br>
+    <%= f.text_field :date %>
+  </p>
+
+  <p>
+    <%= f.label :name %><br>
+    <%= f.text_field :nombre %>
+    <%= f.text_field :primerapellido %>
+    <%= f.text_field :segundoapellido %>
+  </p>
+
+  <p>
+    <%= f.label :OD %><br>
+    <%= f.text_field :esferaderecha %>
+    <%= f.text_field :cilindroderecho %>
+    <%= f.text_field :ejederecho %>
+  </p>
+
+  <p>
+    <%= f.label :OI %><br>
+    <%= f.text_field :esferaizquierda %>
+    <%= f.text_field :cilindroizquierdo %>
+    <%= f.text_field :ejeizquierdo %>
+  </p>
+
+  <p>
+    <%= f.label :ADD %><br>
+    <%= f.text_field :adicion %>
+  </p>
+
+  <p>
+    <%= f.label :tipodemica %><br>
+    <%= f.text_field :tipodemica %>
+  </p>
+
+  <p>
+    <%= f.label :Observaciones %><br>
+    <%= f.text_area :Observaciones %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
