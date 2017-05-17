@@ -16,6 +16,6 @@ class CreateArchiveros < ActiveRecord::Migration[5.1]
       t.text :observaciones
 
       t.timestamps
-    end
+    endra
   end
 end

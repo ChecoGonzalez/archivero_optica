@@ -1,0 +1,37 @@
+<h1>Listado de clientes</h1>
+
+<table>
+  <tr>
+    <th>date</th>
+    <th>name</th>
+    <th>primerapellido</th>
+    <th>segundoapellido</th>
+    <th>esferaderecha</th>
+    <th>cilindroderecho</th>
+    <th>ejederecho</th>
+    <th>esferaizquierda</th>
+    <th>cilindroizquierdo</th>
+    <th>ejeizquierdo</th>
+    <th>adicion</th>
+    <th>tipodemica</th>
+    <th>observaciones</th>
+  </tr>
+
+  <% @articles.each do |l| %>
+    <tr>
+      <td><%= l.date %></td>
+      <td><%= l.nombre %></td>
+      <td><%= l.primerapellido %></td>
+      <td><%= l.segundoapellido %></td>
+      <td><%= l.esferaderecha %></td>
+      <td><%= l.cilindroderecho %></td>
+      <td><%= l.ejederecho %></td>
+      <td><%= l.esferaizquierda %></td>
+      <td><%= l.cilindroizquierdo %></td>
+      <td><%= l.ejeizquierdo %></td>
+      <td><%= l.adicion %></td>
+      <td><%= l.tipodemica %></td>
+      <td><%= l.observaciones %></td>
+    </tr>
+  <% end %>
+</table>
